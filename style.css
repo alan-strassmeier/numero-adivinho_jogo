@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  font-family: "Bebas Neue", sans-serif;
+  --bg-color-quente: #ff8400;
+  --bg-color-frio: #67c6e3;
+}
+.frio {
+  background-color: var(--bg-color-frio);
+}
+.quente{
+    background-color: var(--bg-color-quente);
+}
+body {
+  background-color: var(--bg-color-quente);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 7em;
+}
+h2{
+font-size: 4em;
+}
+h3 {
+  font-size: 3.5em;
+  margin-top: 20px;
+}
+.mensagem {
+  margin-top: 20px;
+  font-size: 3em;
+}
+.box {
+  border: 2px solid white;
+  display: inline-block;
+  font-size: 3.5em;
+  padding: 25px;
+  margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
